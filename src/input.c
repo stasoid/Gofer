@@ -43,7 +43,7 @@ static Void local thisLineIs	  Args((Int));
 static Void local newlineSkip	  Args((Void));
 static Void local closeAnyInput   Args((Void));
 
-       Int  yyparse	    Args((Void)); /* can't stop yacc making this   */
+//       Int  yyparse	    Args((Void)); /* can't stop yacc making this   */
 					  /* public, but don't advertise   */
 					  /* it in a header file.	   */
 

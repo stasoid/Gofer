@@ -66,7 +66,7 @@ static Bool listFiles = TRUE;		/* TRUE => list files after loading*/
  * Gofer entry point:
  * ------------------------------------------------------------------------*/
 
-Main main Args((Int, String []));	/* now every func has a prototype  */
+//Main main Args((Int, String []));	/* now every func has a prototype  */
 
 Main main(argc,argv)
 int  argc;

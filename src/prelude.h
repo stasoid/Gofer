@@ -9,6 +9,8 @@
 
 #define const		  /* const is more trouble than it's worth,...	   */
 #include <stdio.h>
+#include <inttypes.h>
+#include <string.h>
 
 /*---------------------------------------------------------------------------
  * To select a particular machine/compiler, just place a 1 in the appropriate
@@ -269,7 +271,7 @@ typedef unsigned Bool;
 #define TRUE     1
 #define FALSE    0
 typedef char    *String;
-typedef int      Int;
+typedef intptr_t    Int;
 typedef long     Long;
 typedef int      Char;
 typedef unsigned Unsigned;
@@ -346,7 +348,7 @@ extern int      system	   Args((const char *));
 extern double   atof	   Args((char *));
 #endif
 extern char     *strchr    Args((char *,int));  /* test membership in str  */
-extern Void     exit       Args((Int));
+//extern Void     exit       Args((Int));
 extern Void     internal   Args((String));
 extern Void     fatal	   Args((String));
 

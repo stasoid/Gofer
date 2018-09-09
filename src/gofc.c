@@ -47,7 +47,7 @@ static Void local initialise	Args((Int,String []));
  * Gofer entry point:
  * ------------------------------------------------------------------------*/
 
-Main main Args((Int, String []));	/* now every func has a prototype  */
+//Main main Args((Int, String []));	/* now every func has a prototype  */
 
 Main main(argc,argv)
 int  argc;
