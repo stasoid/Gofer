@@ -15,7 +15,7 @@
 #include <setjmp.h>
 #include <ctype.h>
 
-/*#define GOFC_INCLUDE  "\"gofc.h\""*/
+#define GOFC_INCLUDE  "\"/opt/haskell-gofer/src/gofc.h\""
 
 #ifndef GOFC_INCLUDE
 #if     (TURBOC | BCC | DJGPP | WATCOM)
