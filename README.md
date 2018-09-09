@@ -1,0 +1,2 @@
+This is [Gofer](https://en.wikipedia.org/wiki/Gofer_(programming_language)) (Haskell 1.2 implementation) for [TIO](https://tio.run).
+Initial commit is the contents of [gofer230b.tar.gz](http://web.cecs.pdx.edu/~mpj/goferarc/gofer230b.tar.gz) archive.
