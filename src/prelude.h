@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <inttypes.h>
 #include <string.h>
+#include <unistd.h>
 
 /*---------------------------------------------------------------------------
  * To select a particular machine/compiler, just place a 1 in the appropriate
