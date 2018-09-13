@@ -62,9 +62,10 @@ install		:
 		  rm $*.c
 		  strip $*
 
-parser.c	: parser.y
-		  yacc parser.y
-		  mv y.tab.c parser.c
+# Commented out to fix this bug: https://github.com/TryItOnline/tryitonline/pull/45#issuecomment-420683652
+#parser.c	: parser.y
+#		  yacc parser.y
+#		  mv y.tab.c parser.c
 
 gofer.o		: prelude.h storage.h connect.h errors.h \
 		  command.h machdep.c commonui.c
